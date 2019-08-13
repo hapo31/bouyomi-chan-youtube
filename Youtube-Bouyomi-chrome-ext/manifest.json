@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Youtube for Bouyomi-Chan",
+    "description": "Youtubeのチャットを棒読みちゃんにわたすやつ",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.youtube.com/live_dashboard*"
+            ],
+            "js": ["scripts/script.js"]
+        }
+    ],
+    "permissions": [
+    ]
+}
