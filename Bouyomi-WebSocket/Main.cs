@@ -24,7 +24,7 @@ namespace Plugin
 
         string IPlugin.Version => "2019/08/13版";
 
-        string IPlugin.Caption => "WebSocketから棒読みちゃんを制御します";
+        string IPlugin.Caption => "WebSocketから棒読みちゃんを制御します(ws://localhost:38100/wsに接続してね)";
 
         ISettingFormData IPlugin.SettingFormData => null;
 
